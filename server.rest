@@ -1,0 +1,19 @@
+POST http://localhost:3000/api/user/add
+Content-Type: application/json
+
+{
+    "login": "ismo120",
+    "email": "ismo120@gmail.com",
+    "firstname": "first name test",
+    "lastname": "last name test",
+    "password": "ismo2022"
+}
+
+###
+get http://localhost:3000/api/user/checklogin
+Content-Type: application/json
+
+{
+    "login": "ismo120",
+    "password": "ismo20222"
+}
